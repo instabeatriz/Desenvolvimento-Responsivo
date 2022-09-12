@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head></head>
+<body>
+<style>
+*{
+margin: 1;
+padding: 1;
+}
+
+html,
+body {
+height: 100%;
+}
+.container{
+width: 100vw;
+height: 100vh;
+border: 1px solid black;
+}
+.bloco-1{
+float: left;
+border: 1px solid rgb(255, 0, 0);
+background-color: rgb(0, 128, 122);
+width: 20%;
+height: 50%;
+margin-left: 3%;
+margin-top: 2%;
+}
+.bloco-2{
+float: left;
+border: 1px solid rgb(255, 251, 0);
+background-color: rgb(0, 60, 255);
+width: 20%;
+height: 50%;
+margin-left: 2%;
+margin-top: 2%;
+}
+.bloco-3{
+float: left;
+border: 1px solid rgb(60, 255, 0);
+background-color: rgb(255, 0, 234);
+width: 20%;
+height: 50%;
+margin-left: 2%;
+margin-top: 2%;
+}
+.bloco-4{
+float: left;
+border: 1px solid rgb(0, 255, 13);
+background-color: rgb(255, 0, 0);
+width: 20%;
+height: 50%;
+margin-left: 2%;
+margin-top: 2%;
+}
+
+/*MOBile*/
+
+@media only screen and (min-width: 0px) and (max-width: 480px){
+
+.bloco-1,.bloco-2{
+
+width: 100%;
+
+}
+
+.bloco-3{
+display: none;
+}
+
+.bloco-4{
+display: none;
+}
+
+
+/* TABLET*/
+
+@media only screen and (min-width: 481px) and (max-width: 901px){
+.bloco-1,.bloco-2,.bloco-3,.bloco-4{
+
+width: 45vw;
+
+height: 40vh;
+}
+
+/* WEB */
+
+@media only screen and (min-width: 901px){
+
+}
+
+</style>
+
+<div class ="container" >
+<div class ="bloco-1">
+</div>
+
+<div class ="bloco-2">
+</div>
+
+<div class ="bloco-3">
+</div>
+
+<div class ="bloco-4">
+</div>
+
+</div>
+
+</body>
+
+</html>
+
